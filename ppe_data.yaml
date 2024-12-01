@@ -1,0 +1,14 @@
+# Paths to the dataset directories
+train: C:\Users\admin\Desktop\project\dataset\train\images  # Path to the training images
+val: C:\Users\admin\Desktop\project\dataset\valid\images    # Path to the validation images
+test:  C:\Users\admin\Desktop\project\dataset\test\images  # Add test dataset path
+
+nc: 5
+names: ['person', 'with-helmet', 'with-suit', 'without-helmet', 'without-suit']
+
+roboflow:
+  workspace: ppe-656ud
+  project: ppe-fq2dk
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ppe-656ud/ppe-fq2dk/dataset/6
